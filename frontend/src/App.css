@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-uli li{
+  display:flex;
+  gap: 30px;
+
+}
+
+.nav-uli li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-uli  {
+  padding: 15px;
+  margin: 0;
+  background-color: skyblue;
+}
+.nav-right {
+  display: flex;
+  justify-content: end;
+}
+.logo-pic{
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.register{
+  margin-left: 30%;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  bottom: 0;
+  padding-bottom: 20px;
+ 
+}
+
+.inputBox {
+  display: block;
+  margin: 25px auto; 
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+  top: 50%;
+  left: 50%;
+}
+
+.sign-button{
+  margin: 25px;
+  padding: 10px;
+  width: 130px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  margin-left: 520px;
+  margin-top: 40px;
+ 
+}
+.invalid-input{
+  color: red;
+  display: block;
+  margin-left: 520px;
+  margin-top: -23px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+ display: inline-block;
+  border: 1px solid blue;
+  padding: 6px;
+  width: 150px;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
